@@ -21,6 +21,11 @@ a {
   	transition: all 0.3s;
 }
 
+.newnav{
+    background-color: white;
+    border: 0px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+}
 a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
 }
