@@ -26,6 +26,15 @@ a {
     border: 0px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
 }
+
+.navbar-right > li > a {
+    color: #4caf50 !important;
+}
+
+.navbar-right > li > a:hover {
+    color: #074626 !important;
+}
+
 a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
 }
@@ -430,10 +439,6 @@ ul.footer-menu li a:hover {
 .intro-des {
     padding-left: 3%;
     padding-right: 10%;
-}
-
-.navbar-nav > li > a:hover {
-    color: #4caf50;
 }
 
 @-webkit-keyframes bounce { 
