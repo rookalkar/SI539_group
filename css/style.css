@@ -23,16 +23,32 @@ a {
 
 .newnav{
     background-color: white;
+    height: 75px;
     border: 0px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
 }
 
+<<<<<<< HEAD
+.logoimage{
+    position:relative;
+    margin-top:5%;
+}
+
+.login-icon{
+/*    position: relative;*/
+    margin: 2%;
+}
+
+.heart{
+    border: 1px;
+=======
 .navbar-right > li > a {
     color: #4caf50 !important;
 }
 
 .navbar-right > li > a:hover {
     color: #074626 !important;
+>>>>>>> 2e7dbab5b4dcc50f45a3d1da75869637b658598d
 }
 
 a:hover, a:focus, a:active, a:visited {
@@ -499,6 +515,12 @@ ul.footer-menu li a:hover {
 
 .searchTerm {
     font-size: 80%;
+}
+
+.logoimage{
+    width: 80%;
+    height: 80%;
+    margin-top:1%;
 }
 
 }
